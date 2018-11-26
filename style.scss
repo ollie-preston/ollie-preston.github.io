@@ -17,17 +17,26 @@ html {
   font-size: 100%;
 }
 
-body {
-	background: $white;
+body {	
+  background-image: url("https://www.planwallpaper.com/static/images/Cool_background-6_SBd4Ddp.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font-weight: bold;
+  color: #0066ff;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 850px;
   padding: 0 10px;
   width: 100%;
+  background:rgba(0, 38, 77,0.9);
+  border-radius: 25px;
+  padding: 20px; 
+  border-bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,21 +56,29 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+  font-weight: bold;  
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
   }
 }
 
 h2 {
+  font-weight: bold;
   font-size: 24px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 h3 {
+  font-weight: bold;
   font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 p {
@@ -69,11 +86,15 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #0066ff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: none;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
   }
 }
 
